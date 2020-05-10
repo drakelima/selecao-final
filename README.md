@@ -1,6 +1,5 @@
-# Primeira versão do site estático para seleção da vaga front-end
-Dos requisitos pedidos ficou faltando passar para as extenções PHP e reparar alguns poucos e pequenos alinhamentos. Para acesso da página interna
-basta clicar na maior imagem de destaque do site.
+# Segunda versão do site estático para seleção da vaga front-end
+Criação do site conforme requisitado com acrescimo de alguns efeitos em javascript.
 
 # Tecnologias usadas
 - HTML
@@ -11,5 +10,5 @@ basta clicar na maior imagem de destaque do site.
 - Photoshop
 
 # Execução e Informações
-Para executar basta abrir o arquivo index.html da pasta no navegador. O site está inteiramente responsivo. O acesso a página interna se dá ao
+Para executar basta iniciar um servidor local e a pasta do projeto. O site está inteiramente responsivo. O acesso a página interna se dá ao
 clicar na maior imagem em destaque
