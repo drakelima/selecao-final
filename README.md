@@ -1,4 +1,4 @@
-# Segunda versão do site estático para seleção da vaga front-end
+# Site estático para seleção da vaga front-end
 Criação do site conforme requisitado com acrescimo de alguns efeitos em javascript.
 
 # Tecnologias usadas
