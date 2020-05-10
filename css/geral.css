@@ -1,0 +1,408 @@
+/* Definições gerais e de fonte */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+li{
+    list-style:none;
+    padding: 0;
+}
+
+ul{
+    padding: 0;
+}
+
+input{
+    color: #ffffff;
+}
+
+h1{
+    font-size: 33px;
+    font-family: 'PT Sans', sans-serif;
+    color: #ffffff;
+}
+
+h2{
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+    color: #ffffff;
+}
+
+p{
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    color: #ffffff;
+}
+
+a{
+    cursor: pointer;
+}
+
+.p-small{
+    font-size: 12px;
+    font-family: 'PT Sans', sans-serif;
+    color: #878889;
+}
+.p-cinza{
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    color: #878889;
+}
+
+.p-preto{
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    color: #000000;
+}
+
+.h2-cinza{
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    color: #656565;
+}
+
+.h2-branco-bold{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.h1-titulo-cinza{
+    font-size: 24px;
+    color: #656565;
+    font-weight: bold;
+}
+
+/* Cabeçalho */
+
+header{
+    display: block;
+    background-image: url('../img/bg_natal.png');
+    min-height: 218px;
+    padding: 35px 0px 35px 0px;
+}
+
+.fade-in{
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.logo{
+    width: 273px;
+    height: 148px;
+}
+
+.input-busca{
+    display: inline-block;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    background: none;
+    margin-right: -35px;
+}
+
+.input-busca::placeholder{
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    color: #ffffff;
+}
+
+.icon-find{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    z-index: 100000;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.align-custom{
+    padding: 50px 15px 50px 0;
+    text-align: right;
+}
+
+/* Menu */
+
+.menu-mobile{
+    display: none;
+}
+
+nav{
+    display: block;
+    min-height: 85px;
+    background: #318c4d;
+    padding: 28px 0px 0px 0px;
+}
+
+.social-icons{
+    width: 25px;
+    height: 25px;
+}
+
+.itens-nav{
+    padding: 0px;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 6px;
+}
+
+.itens-nav a{
+    display: block;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+
+.itens-nav a:hover{
+    border-bottom: 2px solid #f9bd1f;
+}
+
+.itens-nav:last-of-type{
+    margin-top: 0px;
+    text-align: right;
+}
+
+.itens-nav:last-of-type a{
+    display: inline;
+    border-bottom: none;
+}
+/* Conteúdo */
+
+/* Destaque */
+
+content{
+    display: block;
+    min-height: 600px;
+}
+
+.bg-destaque{
+    background: #efefef;
+    padding: 30px 0px 50px 0px;
+}
+
+.destaque-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 650px;
+    height: 481px;
+    background-image: url('../img/destaque1.png');
+    padding: 0px 35px 10px 35px;
+    margin-right: 20px;
+}
+
+.destaque-principal:hover{
+    color: #ffffff;
+}
+
+.destaque-subsequente1{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 460px;
+    height: 230px;
+    background-image: url('../img/destaque2.png');
+    padding: 0px 20px 0px 20px;
+}
+
+.destaque-subsequente1:hover{
+    color: #ffffff;
+}
+
+.destaque-subsequente2{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 460px;
+    height: 230px;
+    background-image: url('../img/destaque3.png');
+    margin-top: 20px 0px 0px 20px;
+    margin-top: 20px;
+    padding: 0px 20px 0px 20px;
+}
+
+.destaque-subsequente2:hover{
+    color: #ffffff;
+}
+
+/* Últimas Notícias */
+
+.sessao-noticia{
+    margin: 30px 0px 30px 0px;
+}
+
+.noticias{
+    width: 260px;
+    height: 208px;
+    margin-bottom: 10px;
+}
+
+.icon-calendar{
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.col-custom{
+    width: 263px;
+    min-height: 365px;
+    padding: 0;
+    margin-left: 14px;
+}
+
+.col-custom:hover a{
+    color: #000000;
+}
+
+.align-vertical{
+    margin-top: 70px;
+}
+
+.btn-custom{
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 0;
+    margin: 0 auto;
+    padding: 10px 30px 10px 30px;
+}
+
+/* Album */
+
+.sessao-album{
+    border-top: 1px solid #cdcdcd;
+    margin-top: 65px;
+    padding: 70px 0px 115px 0px;
+}
+
+.col-custom-album1{
+    width: 31%;
+    height: 256px;
+    margin-right: 2%;
+    padding: 0;
+    background-image: url('../img/album1-origin.png');
+    padding: 200px 0px 0px 0px;
+}
+
+.col-custom-album1:hover > .bg-titulo-foto, .col-custom-album2:hover > .bg-titulo-foto{
+    background: rgba(49, 140, 77, 1);
+}
+
+.col-custom-album2{
+    width: 31%;
+    height: 256px;
+    margin-right: 2%;
+    padding: 0;
+    background-image: url('../img/album2-origin.png');
+    padding: 200px 0px 0px 0px;
+}
+
+.col-custom-album3{
+    width: 31%;
+    height: 256px;
+    margin-right: 2%;
+    padding: 0;
+    background-image: url('../img/album3.png');
+}
+
+.titulos-md-sm{
+    display: none;
+}
+
+.bg-titulo-foto{
+    background: rgba(49, 140, 77, 0.8);
+    padding: 10px 10px 1px 10px;;
+}
+
+.col-custom-titulos{
+    padding: 0;
+}
+
+/* Rodapé */
+
+footer{
+    display: block;
+    min-height: 166px;
+    background: #383838;
+    padding: 20px 0px 30px 0px;
+}
+
+.menu-ft{
+    border-bottom: 1px solid #4d4c4c;
+    padding-bottom: 20px;
+}
+
+.item-menu-ft{
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.item-menu-ft:last-of-type{
+    text-align: right;
+}
+
+.menu-ft a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu-ft a:hover{
+    color: #5aac51;
+}
+
+.endereco{
+    width: 300px;
+    margin-right: 20px;
+}
+
+.icon-location, .icon-cell{
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-top: 3px;
+}
+
+/* PAGINAS INTERNAS */
+
+.titulo-artigo{
+    display: block;
+    margin: 30px 0px 30px 0px;
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 5px;
+}
+
+.artigo{
+    float: left;
+    width: 400px;
+    height: 296px;
+    margin: 0px 20px 0px 0px;
+}
+
+.texto-artigo{
+    text-align: justify;
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 20px;
+}
+
+.custom-btn{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
