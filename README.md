@@ -1,5 +1,5 @@
-# Site estático para seleção da vaga front-end
-Criação do site conforme requisitado com acrescimo de alguns efeitos em javascript.
+# Site estático apenas com front-end
+Criação do site sem muito uso de frameworks com acrescimo de alguns efeitos em javascript puro.
 
 # Tecnologias usadas
 - HTML
@@ -10,5 +10,5 @@ Criação do site conforme requisitado com acrescimo de alguns efeitos em javasc
 - Photoshop
 
 # Execução e Informações
-Para executar basta iniciar um servidor local e a pasta do projeto. O site está inteiramente responsivo. O acesso a página interna se dá ao
+Para executar basta iniciar um servidor local na pasta do projeto apontando para o arquivo index. O site está inteiramente responsivo. O acesso a página interna se dá ao
 clicar na maior imagem em destaque
